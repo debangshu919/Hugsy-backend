@@ -13,7 +13,7 @@ app.use(cors());
 
 // API ROUTES
 app.get('/', (req, res) => {
-    res.status(200).send('Welcome to the Hugsy API! Please use /api/chatbot endpoint.');
+    res.status(200).send('Welcome to the Hugsy API! Please use /api/kids or /api/parents endpoints.');
 });
 
 router.get('/kids', async (req, res) => {
