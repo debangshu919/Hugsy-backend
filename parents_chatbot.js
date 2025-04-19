@@ -21,42 +21,6 @@ export async function parentsChatbot(prompt) {
                     "content": [
                         {
                             "type": "text",
-                            "text": "I cant focus on my studies"
-                        }
-                    ]
-                },
-                {
-                    "role": "assistant",
-                    "content": [
-                        {
-                            "type": "text",
-                            "text": "It can be overwhelming with multiple challenges. ADHD can make it hard to focus, while Dyslexia can make reading and writing difficult. Dyscalculia affects math, and Dysgraphia makes writing hard. Tourette's can also impact focus.\n\nLet's break it down: What specific areas do you struggle with in your studies?"
-                        }
-                    ]
-                },
-                {
-                    "role": "user",
-                    "content": [
-                        {
-                            "type": "text",
-                            "text": "i get distracted too often"
-                        }
-                    ]
-                },
-                {
-                    "role": "assistant",
-                    "content": [
-                        {
-                            "type": "text",
-                            "text": "Distractibility is common. ADHD can make it hard to stay on track. Try breaking tasks into smaller chunks, using the Pomodoro Technique (25 minutes work + 5 minutes break). This can help you stay focused.\n\nAdditionally, consider using a planner or app to stay organized and on track."
-                        }
-                    ]
-                },
-                {
-                    "role": "user",
-                    "content": [
-                        {
-                            "type": "text",
                             "text": prompt
                         }
                     ]
