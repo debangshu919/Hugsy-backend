@@ -2,8 +2,8 @@ import express, { Router } from 'express';
 import serverless from "serverless-http";
 import bodyParser from 'body-parser';
 import cors from 'cors';
-import { kidsChatbot } from './kids_chatbot.js';
-import { parentsChatbot } from './parents_chatbot.js';
+import { kidsChatbot } from '../../kids_chatbot.js';
+import { parentsChatbot } from '../../parents_chatbot.js';
 
 const router = Router();
 const app = express();
